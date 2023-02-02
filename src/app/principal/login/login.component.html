@@ -1,0 +1,21 @@
+<section class="container-sm p-4">
+  <form class="border border-2 border-warning bg">
+    <section class="">
+      <section *ngIf="mostrar" class="alert alert-primary">
+        Username: Dkli <br>
+        Password: 12345678
+      </section>
+      <h2 class="formulario text-center">Ingresar</h2>
+      <section class="form-group">
+        <label class="text" for="username">Username:</label>
+        <input type="text" class="form-control border-warning" id="username" name="usuario" [(ngModel)]="usu">
+      </section>
+      
+      <section class="form-group">
+        <label class="text" for="password">Password:</label>
+        <input type="password" class="form-control border-warning" id="password" name="contraseña" [(ngModel)]="pass">
+      </section>
+      <input class="btn btn-primary mt-3 rounded mx-auto d-block" (click)="login()" value="Iniciar">
+    </section>
+  </form>
+</section>

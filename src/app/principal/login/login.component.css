@@ -1,0 +1,30 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario{
+    color:dodgerblue;
+}
+.text{
+    color:dodgerblue;
+ }
+.container-sm{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+    
+}
+form{
+    width: 35rem;
+    padding: 2rem;
+}
+.border{
+    border-radius: 15px;
+    
+}
+.btn:hover{
+    background-color:gold;
+}
+.fondo{
+    background-color: rgb(174, 215, 248);
+}

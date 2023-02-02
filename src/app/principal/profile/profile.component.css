@@ -1,0 +1,11 @@
+#titulo{
+    color: beige;
+}
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
